@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# Description: Open current folder using VSCode
+#
+# Shell: POSIX compliant
+# Authors: Victor Yrazusta
+
+code .
