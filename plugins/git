@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+# Description: Commit all changes and push them using git
+#
+# Shell: POSIX compliant
+# Authors: Victor Yrazusta
+
+printf "Commit message: "
+read -r cm
+
+git add .
+git commit -m "$cm"
+git push
